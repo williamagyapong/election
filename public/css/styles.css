@@ -1,0 +1,177 @@
+#header{
+	width: 100%; height: 60px;
+	background: black; color: white;
+	margin-top: -20px; text-align: center;
+}
+#footer{
+	width: 100%; height: 100px;
+	color: white; background: black;
+
+}
+#main{
+	width: 100%; height: 500px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.table2 { border: thin solid #cccccc; border-radius: 5px;
+        background: #ffffff; margin-top: 60px; 
+}
+.table2 th { letter-spacing: 2.5px; background: #eeeeee; 
+	 color: #000000; text-transform: uppercase; 
+	 text-align: center; border-top: thick solid #eeeeee;*/
+	 border-bottom: thin solid #cccccc;padding: 10px;
+}
+ .table2 tr.head { letter-spacing: 1.5px; background: #dddddd; 
+	 color: #000000; text-transform: uppercase; 
+	 border-top: thick solid #eeeeee; 
+	 border-bottom: thin solid #cccccc;
+}
+.table2 tr.body { background: #ffffff; color: #000000; 
+}
+.table2 td { border: thin solid #cccccc; padding: 10px; font-size: 18px; 
+	font-family: verdana; font-weight: bold;
+	 
+}
+.table { border: 0px; border-radius: 5px;
+        background: #ffffff; margin-top: 60px; 
+}
+.table th { letter-spacing: 2.5px; background: #eeeeee; 
+	 color: #000000; text-transform: uppercase; 
+	 text-align: center; /*border-top: thick solid #eeeeee;*/
+	 /*border-bottom: thin solid #cccccc;*/ padding: 10px;
+}
+.table tr.head { letter-spacing: 1.5px; background: #dddddd; 
+	 color: #000000; text-transform: uppercase; 
+	 /*border-top: thick solid #eeeeee; 
+	 border-bottom: thin solid #cccccc;*/
+}
+.table tr.body { background: #ffffff; color: #000000; 
+}
+.table td { /*border: thin solid #cccccc;*/ padding: 10px; font-size: 18px; 
+	font-family: verdana; font-weight: bold;
+	 
+}
+
+
+frameset{
+	border: 1px solid black;
+}
+.body{
+	width: 300px; height: auto; 
+	position: absolute; left: 300px;
+}
+.header{
+	width: 100%; height: 60px;
+}
+.login{
+	width:50%; height: auto; border: 1px solid black;
+}
+span a{
+	width: 20%; height: 10px; padding: 10px; color: blue; text-decoration: none;
+	font-weight: bold; font-size: 20px; border: 1px solid black; background: #eeeeee;
+	text-transform: uppercase;
+}
+.menu{
+       text-align: center;
+}
+.menu input{
+	position: absolute;left: 80%; background: #ff0000; color: white;
+	font-weight: bold; font-size: 20px;
+}
+.exit{
+	width: 200px; height: 40px; border: 1px solid black;
+	position: absolute; left: 100px; bottom: 20px; color: red;
+	font-size: 25px;
+}
+.confirm {
+	width: auto; height: auto; border-radius: 5px;
+	position: absolute; left: 170px; top: 180px; 
+}
+.confirm input{
+       color: white; 
+	font-size: 25px; font-weight: bold; background: red; width: 150px; height: auto;
+}
+.undo input{
+       color: white; background: red; font-weight: bold;
+}
+h2{
+	color: blue;
+}
+.votingmain{
+	width: 60%; height: auto; color:yellow ; background-color:blue ; font-size: 35px;
+	border: 1px solid black; position: absolute; left: 160px; font-weight: bold;
+	top: 230px; padding: 5px;
+}
+.back {
+	width: 60%; height: auto;background-color: blue; color: white; font-size: 35px;
+	font-weight: bold; border: 1px solid black; position: absolute; left: 100px;
+	top: 15px;
+}
+.back input{
+	 background: red; color: white; width: 80px ;height: 35px; font-weight: bold;
+	 font-size: 20px;
+}
+.result{
+	width: 100%; height: auto; font-size: 35px; font-weight: bold; background-color:#eeeeee;
+	text-align: center; color:red;
+
+}
+.alert {
+	border: 4px solid #c4c; background: #cccccc; border-top: 20px solid #c4c;
+	  width: 400px; height:auto; padding: 5px; position: absolute;left: 140px;
+	  top: 150px;  border-radius: 10px; 
+}
+.alert input{
+	background: blue; color:#ffffff; font-weight: bold; font-size: 20px;
+	padding: 5px; margin: 30px; width: 100px ;height: 35px; float: right;
+
+}
+.alert h2{
+	color: #ff0000;
+}
+.box{
+	width: 400px; height: auto; position:absolute; left: 100px; top: 100px;
+	border: 4px solid #eeeeee; padding: 5px;
+}
+.wrapper{
+	width: 80%;
+	height: auto;
+	background-color: #fff;
+	padding: 20px;
+	margin:60px 0 30px 90px;
+	border-radius: 8px;
+}
+.fieldset{
+	background-color:#f5f5f5; 
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.fieldset legend{
+	font-weight: bold;
+	font-size: 2em;
+	color: red;
+}
+
+#ignore{
+	color: blue;
+	font-family: verdana;
+}
+
+.castvote{
+	width: 80%; height: auto; border-top: 30px solid #eeeeee; border-left:  10px solid #eeeeee;
+	border-bottom: 10px solid #eeeeee; border-right: 10px solid #eeeeee; margin-left: 50px;
+	margin-top:40px; 
+}
+.castvote span{
+	width:170px ; height:263px ;
+	 margin-top: 60px; margin-right: 25px; border: none;
+	 
+}
+.summary{
+	width: 70%; height: auto; border:5px solid #F5DEB3; margin-top:30px; margin-left: 50px;
+	padding-top: 5px; padding-left: 70px; background: #F5F5F5; border-radius: 10px; 
+	border-top: 30px solid #F5DEB3;
+}
